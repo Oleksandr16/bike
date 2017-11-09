@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: whitesmoke;
+}
+.main {
+    background-color: white;
+    width: 75%;
+    height: 800px;
+    margin: auto;
+    border: 1px solid white;
+}
+.head {
+    padding: 55px 85px;
+    font-size: 55px;
+    color: #484646;
+}
+.border {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #484646;
+    background: #484646;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.navigation {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    
+}
+a {
+    color: #e2dede;
+    margin-left: 45px;
+    text-decoration: none;
+}
+
+.sidebarborder:hover {
+    background-color: grey;
+}
+.menu {
+    margin-left: 20px;
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 20px;
+    width: 250px;
+}
+.sidebarmenu {
+    display: flex;
+    justify-content: space-between;
+}
+.sidebarborder {
+   
+    background-color: white;
+    padding-top: 10px;
+    text-align: center;
+    height: 30px;
+    width: 250px;
+    border: 1px solid #e2dede;   
+}
+.imageborder {
+     border: 1px inset #e2dede;
+    
+}
+.text {
+    font-size: 15px;
+    width: 505px;
+}
+.border1 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 85%;
+    height: 38px;
+    border: 1px solid #d2d2d2;
+    background: #d2d2d2;
+}
+.downmenu {
+    display: flex;
+    justify-content: center;
+}
+.navigation1 {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    
+}
+#reserved {
+    margin-left: 180px;
+}
+.color {
+    color: #484646;
+}
+.backgraundbike {
+    margin-top: 30px; 
+    background-image: url(1.png);
+    width: 500px;
+    height: 390px;
+    background-size: cover; 
+    border: 1px inset #e2dede;
+}
